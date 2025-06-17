@@ -16,15 +16,17 @@ export default function Section5(){
 
 
   <div className="d-flex flex-column justify-content-center align-items-center pb-5">
-    <h2 className=" mobile-fonts-heading text-start  " style={{ fontSize: '75px' }}>
-       Comprehensive Coal Flow Analysis with Cutting-Edge Technology
+    <h2 className=" mobile-fonts-heading text-start  " style={{ fontSize: '70px' }}>
+       Comprehensive Coal Flow Analysis with Cutting-Edge Technology for Flame Stability During Flexibilization
       </h2>
+
+      <video  style={{borderRadius:'10px'}} className="w-100 m-5 " src="/images/evolve-home/evolve.mp4" autoPlay  loop muted />
 
       <h4
         className="pt-4 text-start"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
-       Our manufacturing expertise spans across multiple categories designed to meet the toughest industrial demands. Whether it’s wear-resistant materials or cutting-edge flow management technologies, BMW Steels Ltd. delivers industry-leading products built for durability, efficiency, and sustainability. Explore our innovative solutions crafted to optimize performance and minimize downtime, ensuring your operations run smoothly and effectively
+       Our technical expertise spans across multiple categories designed to meet the toughest industrial demands. Whether it’s wear-resistant materials or cutting-edge flow management technologies, BMW Steels Ltd. delivers industry-leading products built for durability, efficiency, and sustainability. Explore our innovative solutions crafted to optimize performance and minimize downtime, ensuring your operations run smoothly and effectively
        </h4>
   </div>
   
@@ -380,6 +382,18 @@ which can lead to inefficient combustion.
 
     <div className="w-100 ps-md-5 d-flex flex-column justify-content-between ">
       <h2 className="mobile-fonts-heading" style={{ fontSize: '49px' }}>Features and Benefits</h2>
+
+
+
+         <div >
+          <h2 className="pt-3 fs-3" style={{ color: '#3D5D09' }}>
+            Flexibilization
+          </h2>
+          <h5>
+            Flame Stability during low loads
+          </h5>
+        </div>
+
 
      
         <div >

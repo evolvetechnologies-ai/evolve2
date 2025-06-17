@@ -23,29 +23,20 @@ export default function Index3(){
       <div className="p-md-5 mt-3">
         <div className="d-lg-flex px-md-5 justify-content-center align-items-center">
           <div className="w-100 p-3 pb-5">
-            <h2 className="pt-md-4 mobile-fonts-heading" style={{ fontSize: '35px' }}>
-              At Evolve, we specialize in cutting-edge solutions for combustion optimization.
-Our solutions ensure precise coal distribution, improving boiler performance
-and extending equipment life.
-            </h2>
+
             <h5
               className="pt-4"
               style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'start' }}
             >
-              With a focus on innovation, durability, and efficiency, Evolve delivers high-performance wear-resistant
-materials
-that enhance equipment longevity and operational efficiency across industries like steel, power,
-mining, cement,
-and more.
+              Evolve is about making energy cleaner and smarter. Evolve helps industries use coal smarter through advanced technology, which reduces pollution. It should keep industry operating efficiently, reduce contaminant outputs, and protect the environment.
 
             </h5>
             <h5
               className="pt-4"
               style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'start' }}
             >
-              Backed by decades of expertise, advanced engineering, and a commitment to quality, Evolve stands as a
-trusted partner for industries requiring robust and reliable wear solutions. Our mission is to help businesses
-minimize downtime, reduce maintenance costs, and optimize performance  through world-class CFMS products.
+              Evolve's primary focus is thermal power plants. For thermal power plants, we help them to monitor and adjust the fuel and combustion processes within their plant, allowing them to save fuel, reduce emissions and prepare to be more effective. The motivation for our team of engineers, data specialists, and energy professionals to develop a greener future is all about looking forward.
+
             </h5>
           </div>
           <div className="text-center p-3 ps-md-5">
@@ -107,9 +98,7 @@ minimize downtime, reduce maintenance costs, and optimize performance  through w
               className="pt-4"
               style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'start' }}
             >
-              To be the national leader
-in combustion optimization
-in power plants.
+              We envision clean, smart, and sustainable energy being used by the industry to create a better future for all.
 
             </h5>
                 </div>
