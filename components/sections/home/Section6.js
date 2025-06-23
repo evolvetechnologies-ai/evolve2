@@ -56,7 +56,7 @@ export default function Section5(){
       <div id="carouselExampleControls1" className="carousel slide px-md-5 pt-md-0" data-bs-ride="carousel">
       <div className="carousel-inner">
         
-        <div className="carousel-item container active p-5">
+        <div className="carousel-item container active p-md-5">
           <div className="row">
            
 
@@ -65,7 +65,7 @@ export default function Section5(){
 
 
              <div className="col-md-12" >
-              <div className="card p-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+              <div className="card p-md-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
                 <div className="card-body">
                   <div className="d-flex justify-content-between pb-3">
                                       <img
@@ -122,7 +122,7 @@ export default function Section5(){
         </div>
 
 
-        <div className="carousel-item container p-5 ">
+        <div className="carousel-item container p-md-5 ">
           <div className="row">
            
 
@@ -131,7 +131,7 @@ export default function Section5(){
 
 
              <div className="col-md-12" >
-              <div className="card p-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+              <div className="card p-md-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
                 <div className="card-body">
                   <div className="d-flex justify-content-between pb-3">
                                       <img
@@ -193,7 +193,7 @@ export default function Section5(){
 
 
 
-        <div className="carousel-item container p-5  ">
+        <div className="carousel-item container p-md-5  ">
           <div className="row">
            
 
@@ -202,7 +202,7 @@ export default function Section5(){
 
 
              <div className="col-md-12" >
-              <div className="card p-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+              <div className="card p-md-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
                 <div className="card-body">
                   <div className="d-flex justify-content-between pb-3">
                                       <img
@@ -265,7 +265,7 @@ export default function Section5(){
 
 
 
-        <div className="carousel-item container p-5  ">
+        <div className="carousel-item container  p-md-5  ">
           <div className="row">
            
 
