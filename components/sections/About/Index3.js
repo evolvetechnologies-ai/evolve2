@@ -6,7 +6,7 @@ export default function Index3(){
       {/* BANNER */}
       <div className=" about-bgi d-flex justify-content-center align-items-center">
         <div className="text-center px-md-5 px-2 d-flex justify-content-center align-items-center  ">
-          <h2 className=" mobile-fonts-heading text-white " style={{ fontSize: '75px' }}>
+          <h2 className=" mobile-fonts-heading text-white " style={{ fontSize: '50px' }}>
             About Us
           </h2>
 
@@ -153,7 +153,7 @@ air to fuel ratio.
       {/* Section 3 */}
       <div className="p-md-5 pb-md-5 py-md-0 p-3" style={{ backgroundColor: '' }}>
         <div className="px-md-5">
-          <h2 className="pt-md-4 mobile-fonts-heading text-center  pt-4" style={{ fontSize: '75px' }}>
+          <h2 className="pt-md-4 mobile-fonts-heading text-center  pt-4" style={{ fontSize: '50px' }}>
        Navigating Towards Greener Future
       </h2>
 
@@ -271,7 +271,7 @@ flame stability at low loads and complete combustion at high loads.
     
 
     <div className="w-100 ps-md-5 d-flex flex-column justify-content-between">
-      <h2 className="pt-md-4 mobile-fonts-heading text-center  pt-4" style={{ fontSize: '75px' }}>
+      <h2 className="pt-md-4 mobile-fonts-heading text-center  pt-4" style={{ fontSize: '50px' }}>
        Why Choose Us?
       </h2>
 
@@ -342,7 +342,7 @@ flame stability at low loads and complete combustion at high loads.
     
 
     <div className="w-100 ps-md-5 d-flex flex-column justify-content-between">
-      <h2 className="pt-md-4 mobile-fonts-heading text-start  pt-4" style={{ fontSize: '75px' }}>
+      <h2 className="pt-md-4 mobile-fonts-heading text-start  pt-4" style={{ fontSize: '50px' }}>
        Our Clients &
 Partners
       </h2>

@@ -44,7 +44,7 @@ const Section4 = () => {
         <div className="w-100 p-3 pt-0">
           <h2
             className="pt-md-4 mobile-fonts-heading"
-            style={{ fontSize: '75px' }}
+            style={{ fontSize: '50px' }}
           >
             Coal Combustion Optimization with Cutting Edge Technology
           </h2>
@@ -56,7 +56,7 @@ const Section4 = () => {
               textAlign: 'start',
             }}
           >
-            BMW's Dynamic Coal Flow Monitoring System is an innovative solution
+            Evolve Technologies Dynamic Coal Flow Monitoring System is an innovative solution
             that continuously measures critical parameters like coal mass flow,
             temperature, and velocity in real-time. Using advanced
             microwave-based sensors, it ensures accurate and balanced coal

@@ -1,125 +1,225 @@
-import React, { children } from "react";
+"use client";
+
+import React from "react";
 import Header from "./header";
 import Footer from "./footer";
-export default function Layout({children}) {
-    return(
-   <>
-   
-   <div className=" button-container ">
 
-    <button type="button" className="btn mx-2  rotated-button" data-bs-toggle="modal" data-bs-target="#exampleModal0">
-   <img src="images/evolve-header/1.png" width={30} style={{rotate:"280deg"}}  alt="" />
-</button>
+export default function Layout({ children }) {
+  return (
+    <>
+      {/* Floating Buttons */}
+      <div className="button-container">
+        <button
+          type="button"
+          className="btn mx-2 rotated-button"
+          data-bs-toggle="modal"
+          data-bs-target="#infoModal"
+        >
+          <img
+            src="/images/evolve-header/1.png"
+            width={30}
+            style={{ rotate: "280deg" }}
+            alt="Info"
+          />
+        </button>
 
-   <button type="button" className="btn btn-primary rotated-button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
-  <img src="images/evolve-header/2.png" width={30} style={{rotate:"270deg"}}  alt="" />
-</button>
-
-
-    </div>
-
-
-
-
-
-
-    
-    {/* <div className=" button-container2 ">
-   
-
-    </div> */}
-
-
-<div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div className="modal-dialog">
-    <div className="modal-content">
-      <div className="modal-header" style={{ backgroundColor: '#072200',color:'rgb(255, 255, 255)'}}>
-        
-        <button type="button" style={{ backgroundColor: 'rgb(255, 255, 255)',color:'rgb(255, 255, 255)'}} className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button
+          type="button"
+          className="btn btn-primary rotated-button"
+          data-bs-toggle="modal"
+          data-bs-target="#contactModal"
+        >
+          <img
+            src="/images/evolve-header/2.png"
+            width={30}
+            style={{ rotate: "270deg" }}
+            alt="Contact"
+          />
+        </button>
       </div>
-      <div className="">
-      <div className="w-100 d-flex justify-content-center align-items-center mt-3 mt-md-0">
-            <form className="p-5 w-100" style={{ backgroundColor: 'rgb(233, 233, 233)', borderRadius: '10px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }}>
-              <h1 className="text-center">Get in touch</h1>
-              <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label">Name</label>
-                <input type="text" className="form-control" placeholder="Enter your Name" id="exampleInputEmail1" />
-              </div>
 
-              <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label">Email</label>
-                <input type="email" className="form-control" placeholder="Enter your Email" id="exampleInputEmail1" />
-              </div>
+      {/* Contact Form Modal */}
+      <div
+        className="modal fade"
+        id="contactModal"
+        tabIndex="-1"
+        aria-labelledby="contactModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div
+              className="modal-header"
+              style={{ backgroundColor: "#072200", color: "#fff" }}
+            >
+              <h5 className="modal-title" id="contactModalLabel">
+                Contact Us
+              </h5>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              />
+            </div>
 
-              <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label">Phone Number</label>
-                <input type="tel" className="form-control" placeholder="Enter your Phone Number" id="exampleInputEmail1" />
-              </div>
+            <div className="modal-body">
+              <form
+                id="contactForm"
+                className="p-3"
+                onSubmit={async (e) => {
+                  e.preventDefault();
 
-              <div className="mb-3">
-                <label htmlFor="exampleFormControlTextarea1" className="form-label">Description</label>
-                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" />
-              </div>
+                  const formData = {
+                    name: e.target.name.value,
+                    email: e.target.email.value,
+                    phone: e.target.phone.value,
+                    message: e.target.message.value,
+                  };
 
-              <div className="text-center">
-                <button type="submit" style={{ backgroundColor: 'red', border: 'none' }} className="btn btn-danger mb-3">
-                  Submit
-                </button>
-              </div>
-            </form>
+                  try {
+                    const response = await fetch("/api/contact", {
+                      method: "POST",
+                      headers: {
+                        "Content-Type": "application/json",
+                      },
+                      body: JSON.stringify(formData),
+                    });
+
+                    if (response.ok) {
+                      alert("Message sent successfully!");
+                      e.target.reset();
+                    } else {
+                      alert("Failed to send message.");
+                    }
+                  } catch (err) {
+                    console.error(err);
+                    alert("Error sending message.");
+                  }
+                }}
+                style={{
+                  backgroundColor: "#e9e9e9",
+                  borderRadius: "10px",
+                  boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+                }}
+              >
+                <h4 className="text-center mb-4">Get in Touch</h4>
+                <div className="mb-3">
+                  <label className="form-label">Name</label>
+                  <input
+                    name="name"
+                    type="text"
+                    className="form-control"
+                    required
+                  />
+                </div>
+                <div className="mb-3">
+                  <label className="form-label">Email</label>
+                  <input
+                    name="email"
+                    type="email"
+                    className="form-control"
+                    required
+                  />
+                </div>
+                <div className="mb-3">
+                  <label className="form-label">Phone Number</label>
+                  <input
+                    name="phone"
+                    type="tel"
+                    className="form-control"
+                    required
+                  />
+                </div>
+                <div className="mb-3">
+                  <label className="form-label">Description</label>
+                  <textarea
+                      name="message"
+                      className="form-control"
+                      rows="4"
+                      required
+                  ></textarea>
+
+                </div>
+                <div className="text-center">
+                  <button
+                    type="submit"
+                    className="btn btn-danger"
+                    style={{ backgroundColor: "red", border: "none" }}
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
+        </div>
       </div>
-      
-    </div>
-  </div>
-</div>
 
+      {/* Info Modal */}
+      <div
+        className="modal fade"
+        id="infoModal"
+        tabIndex="-1"
+        aria-labelledby="infoModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div
+              className="modal-header"
+              style={{ backgroundColor: "#072200", color: "#fff" }}
+            >
+              <h5 className="modal-title" id="infoModalLabel">
+                Contact Info
+              </h5>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              />
+            </div>
 
-
-<div className="modal fade" id="exampleModal0" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div className="modal-dialog">
-    <div className="modal-content">
-      <div className="modal-header" style={{ backgroundColor: '#072200',color:'rgb(255, 255, 255)'}}>
-        
-        <button type="button" style={{ backgroundColor: 'rgb(255, 255, 255)',color:'rgb(255, 255, 255)'}} className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div className="">
-      <div className="w-100 d-flex justify-content-center align-items-center mt-3 mt-md-0">
-            <form className="p-5 w-100" style={{ backgroundColor: 'rgb(233, 233, 233)', borderRadius: '10px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }}>
-              <h1 className="text-center">Reach Out To Us</h1>
-              <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label fw-bold">Address</label>
-                <p  className="now">02 Balbir Road Dalanwala, Dehradun, (U.K.)-248001</p>
+            <div className="modal-body">
+              <div
+                className="p-4"
+                style={{
+                  backgroundColor: "#e9e9e9",
+                  borderRadius: "10px",
+                  boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+                }}
+              >
+                <h4 className="text-center mb-4">Reach Out To Us</h4>
+                <div className="mb-3">
+                  <strong>Address:</strong>
+                  <p>02 Balbir Road Dalanwala, Dehradun, (U.K.)-248001</p>
+                </div>
+                <div className="mb-3">
+                  <strong>Email:</strong>
+                  <p>sales@Evolve.com</p>
+                </div>
+                <div className="mb-3">
+                  <strong>Phone:</strong>
+                  <p>+91-96-390 170 70</p>
+                </div>
+                <div className="mb-3">
+                  <strong>WhatsApp:</strong>
+                  <p>+91-01 234 567 89</p>
+                </div>
               </div>
-
-              <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label fw-bold">Email</label>
-                
-                <p  className="now">sales@Evolve.com</p>
-              </div>
-
-              <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label fw-bold">Phone Number</label>
-                <p  className="now"> +91-96-390 170 70</p>
-              </div>
-
-              <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label fw-bold">Whatsapp Number</label>
-                <p className="now"> +91-01 234 567 89</p>
-              </div>
-
-              
-            </form>
+            </div>
           </div>
+        </div>
       </div>
-      
-    </div>
-  </div>
-</div>
-   <Header/>
-   {children}
-   
-   <Footer/>
-   </>
-)
+
+      {/* Main Content */}
+      <Header />
+        <div style={{marginTop:'60px'}}>
+
+   </div>
+      {children}
+      <Footer />
+    </>
+  );
 }

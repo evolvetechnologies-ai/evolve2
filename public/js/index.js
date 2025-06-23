@@ -88,3 +88,43 @@ clipp.forEach(clip => {
 
 
 
+// 📨 Contact form submission logic
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.querySelector("form");
+
+  if (form) {
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+
+      const formData = {
+        name: form.querySelector('input[type="text"]').value,
+        email: form.querySelector('input[type="email"]').value,
+        phone: form.querySelector('input[type="tel"]').value,
+        message: form.querySelector('textarea').value,
+      };
+
+      try {
+        const res = await fetch("/api/contact", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        });
+
+        const data = await res.json();
+        if (res.ok) {
+          alert("✅ Message sent successfully!");
+          form.reset();
+        } else {
+          alert("❌ Failed to send message: " + data.error);
+        }
+      } catch (err) {
+        alert("⚠️ Error sending message. Please try again later.");
+        console.error(err);
+      }
+    });
+  }
+});
+
+

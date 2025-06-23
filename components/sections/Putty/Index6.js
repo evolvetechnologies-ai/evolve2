@@ -31,7 +31,7 @@ export default function Index6(){
       {/* BANNER */}
       <div className="">
         <div className="text-center px-md-5  px-2">
-          <h2 className="pt-4 mobile-fonts-heading text-center" style={{ fontSize: '75px' }}>
+          <h2 className="pt-4 mobile-fonts-heading text-center" style={{ fontSize: '50px' }}>
           Coal Velocity Measurement
           </h2>
 
@@ -135,45 +135,45 @@ cutting. </h5>
       {/* Section 3 */}
       <div className="p-md-5 py-md-5 pt-md-2 p-3" style={{}}>
         <div className="px-md-5">
-      <h4
+      <h5
         className="pt-4"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
       The electrostatic sensor also tracks coal particle velocity, ensuring a balanced air-to-fuel ratio for efficient combustion. Proper velocity helps in particle segregation, maintain flame stability, particularly during low-load operations, and prevents inefficiencies such as poor heat transfer or incomplete combustion, reducing NOx emissions.
-       </h4>
+       </h5>
 
 
-      <h4
+      <h5
         className="pt-4"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
       <b>Sensor Type:</b> Electrostatic velocity sensors.
 
 
-      </h4>
+      </h5>
 
 
 
 
-      <h4
+      <h5
         className="pt-4"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
      <b>Position:</b> Installed 500mm above mass flow sensors.
 
 
-      </h4>
+      </h5>
 
 
 
 
 
-      <h4
+      <h5
         className="pt-4"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
      <b>Capability:</b> Measures the velocity of coal particles within the pipes in real-time, adjusting for changing operating conditions.
-      </h4>
+      </h5>
 
 
          

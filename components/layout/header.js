@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     
-    <nav className="navbar navbar-expand-lg bg-body-tertiary py-0" style={{ backgroundColor: "black",zIndex:'100' }}>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary py-0 fixed-top" style={{ backgroundColor: "black",zIndex:'100' }}>
       <GoogleTranslate/>
       <div className="container-fluid d-flex justify-content-around align-items-center" style={{ backgroundColor: "#072200" }}>
         <div>
@@ -164,6 +164,7 @@ export default function Header() {
       </div>
       
     </nav>
+    
     
   );
 }

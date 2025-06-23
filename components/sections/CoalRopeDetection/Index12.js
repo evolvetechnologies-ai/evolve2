@@ -31,7 +31,7 @@ export default function Index12(){
       {/* BANNER */}
       <div className="">
         <div className="text-center px-md-5  px-2">
-          <h2 className="pt-4 mobile-fonts-heading text-center" style={{ fontSize: '75px' }}>
+          <h2 className="pt-4 mobile-fonts-heading text-center" style={{ fontSize: '50px' }}>
            Coal Rope Detection
           </h2>
 
@@ -135,32 +135,32 @@ cutting. </h5>
       {/* Section 3 */}
       <div className="p-md-5 py-md-5 pt-md-2 p-3" style={{}}>
         <div className="px-md-5">
-      <h4
+      <h5
         className="pt-4"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
       Coal rope detection involves identifying uneven coal distribution within the pipe, which can lead to inefficient combustion. Mass flow sensor detect variations in coal flow and detects high density coal flow areas-Coal rope.
 
-      </h4>
+      </h5>
 
 
-      <h4
+      <h5
         className="pt-4"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
       <b>Technology:</b> Microwave sensor also identify coal roping areas within each pipe.
-      </h4>
+      </h5>
 
 
 
 
-      <h4
+      <h5
         className="pt-4"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
      <b>Importance:</b> Detects uneven coal distribution and potential blockages to ensure proper flow and efficient combustion minimizing operational disruptions.
 
-      </h4>
+      </h5>
 
 
 

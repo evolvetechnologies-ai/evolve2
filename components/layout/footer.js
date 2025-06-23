@@ -35,13 +35,7 @@ export default function Footer() {
                   <img src="images/evolve-header/logo.png" height="100px" alt="" />
                 </a>
                 <p>
-                  02 Balbir Road Dalanwala,
-                  Dehradun, (U.K.)-248001
-                  <br /> <br />
-                  Mobile: +91-96390 17070
-                  <br />
-                  <br />
-                  Email: sales@Evolve.com
+                  
                 </p>
               </div>
 
@@ -100,7 +94,7 @@ export default function Footer() {
                 <h6 className="text-uppercase fw-bold mb-4">Company</h6>
                 <p>
                   <Link href="/" className="text-reset text-decoration-none now">
-                   CFMS
+                   Home
                   </Link>
                 </p>
                
@@ -150,14 +144,12 @@ export default function Footer() {
                 </p></a>
                 <p className="now">
                   <i className="fas fa-envelope me-3 "></i>
-                  Sales@Evolve.com
+                  Sales@evolvetechnologies.co.in
                 </p>
                 <p className="now">
                   <i className="fas fa-phone me-3"></i> +91-9639017070
                 </p>
-                <p className="now">
-                  <i className="fas fa-print me-3"></i> +91-01 234 567 89
-                </p>
+                
               </div>
             </div>
           </div>

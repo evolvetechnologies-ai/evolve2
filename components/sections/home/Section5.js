@@ -16,18 +16,18 @@ export default function Section5(){
 
 
   <div className="d-flex flex-column justify-content-center align-items-center pb-5">
-    <h2 className=" mobile-fonts-heading text-start  " style={{ fontSize: '70px' }}>
+    <h2 className=" mobile-fonts-heading text-start  " style={{ fontSize: '50px' }}>
        Comprehensive Coal Flow Analysis with Cutting-Edge Technology for Flame Stability During Flexibilization
       </h2>
 
-      <video  style={{borderRadius:'10px'}} className="w-100 m-5 " src="/images/evolve-home/evolve.mp4" autoPlay  loop muted />
+      <video  style={{borderRadius:'10px'}} className="w-100 m-5 " src="/images/evolve-home/evolve2.mp4" autoPlay  loop muted />
 
-      <h4
+      <h5
         className="pt-4 text-start"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
-       Our technical expertise spans across multiple categories designed to meet the toughest industrial demands. Whether it’s wear-resistant materials or cutting-edge flow management technologies, BMW Steels Ltd. delivers industry-leading products built for durability, efficiency, and sustainability. Explore our innovative solutions crafted to optimize performance and minimize downtime, ensuring your operations run smoothly and effectively
-       </h4>
+       Our technical expertise spans across multiple categories designed to meet the toughest industrial demands. Whether it’s wear-resistant materials or cutting-edge flow management technologies, Evolve Technologies. delivers industry-leading products built for durability, efficiency, and sustainability. Explore our innovative solutions crafted to optimize performance and minimize downtime, ensuring your operations run smoothly and effectively
+       </h5>
   </div>
   
   
@@ -221,7 +221,7 @@ temperatures.
             Coal Rope Breaker
           </h5>
           <p className="card-text text-white-50">
-           BMW has developed a unique equipment to create turbulence in coal flow in a section of
+           Evolve Technologies has developed a unique equipment to create turbulence in coal flow in a section of
 pipe and effectively breaks the high coal concentration areas. 
 </p>
           <div>
@@ -344,23 +344,23 @@ which can lead to inefficient combustion.
    <div className="p-md-5 p-4 pt-md-0">
   <div className="d-md-flex p-3 pt-md-0 px-md-5 justify-content-center align-items-center">
     <div className="w-100">
-      <h2 className="pt-md-4 mobile-fonts-heading" style={{ fontSize: '75px' }}>
-        Key Advantages of the BMW Coal Flow System
+      <h2 className="pt-md-4 mobile-fonts-heading" style={{ fontSize: '50px' }}>
+        Key Advantages of the Evolve Technologies Coal Flow System
       </h2>
     </div>
 
     <div className="w-100 px-md-3">
       
-      <h4
+      <h5
         className="pt-4 text-start"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
-       The BMW Dynamic Coal Flow Monitoring System enhances coal-fired power
+       The Evolve Technologies Dynamic Coal Flow Monitoring System enhances coal-fired power
         plants by ensuring precise, real-time control of coal distribution.
         This leads to improved combustion, reduced emissions, and lower operational
         costs. With cutting-edge sensors and easy-to-use software, the system
         delivers higher efficiency and sustainability in power generation.
-         </h4>
+         </h5>
     </div>
   </div>
 
@@ -381,14 +381,14 @@ which can lead to inefficient combustion.
     </div>
 
     <div className="w-100 ps-md-5 d-flex flex-column justify-content-between ">
-      <h2 className="mobile-fonts-heading" style={{ fontSize: '49px' }}>Features and Benefits</h2>
+      <h2 className="mobile-fonts-heading" style={{ fontSize: '45px' }}>Features and Benefits</h2>
 
 
 
          <div >
-          <h2 className="pt-3 fs-3" style={{ color: '#3D5D09' }}>
+          <h3 className="pt-3 fs-3" style={{ color: '#3D5D09' }}>
             Flexibilization
-          </h2>
+          </h3>
           <h5>
             Flame Stability during low loads
           </h5>
@@ -443,16 +443,16 @@ which can lead to inefficient combustion.
 
 
   <div className="d-flex flex-column justify-content-center align-items-center">
-    <h2 className="pt-md-4 mobile-fonts-heading text-center  pt-4" style={{ fontSize: '75px' }}>
+    <h2 className="pt-md-4 mobile-fonts-heading text-center  pt-4" style={{ fontSize: '50px' }}>
        Our Partners
       </h2>
 
-      <h4
+      <h5
         className="pt-4  text-center "
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
        We take pride in serving a diverse clientele across industries such as steel,<br/> mining, cement, power, and petrochemicals.
-      </h4>
+      </h5>
   </div>
 
   <marquee  ><div>

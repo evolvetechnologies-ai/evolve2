@@ -19,7 +19,7 @@ export default function Section3(){
             </h2>
             <h2 className="fs-1" style={{ color: "#010101", fontWeight: 600 }} >%</h2>
           </div>
-          <h5 className="fw-normal" style={{ color: "#424241"}}>Reduction in NOx and CO emissions with BMW's Dynamic Coal Flow Monitoring System.</h5>
+          <h5 className="fw-normal" style={{ color: "#424241"}}>Reduction in NOx and CO emissions with Evolve Technologies Dynamic Coal Flow Monitoring System.</h5>
         </div>
 
 
@@ -67,7 +67,7 @@ export default function Section3(){
             </h2>
             <h2 className="fs-1" style={{ color: "#010101", fontWeight: 600 }} >.77L</h2>
           </div>
-          <h5 className="fw-normal" style={{ color: "#424241"}}>Daily savings per plant by reducing unburnt carbon with BMW’s Dynamic CFMS.</h5>
+          <h5 className="fw-normal" style={{ color: "#424241"}}>Daily savings per plant by reducing unburnt carbon with Evolve Technologies Dynamic CFMS.</h5>
         </div>
 
 
@@ -84,14 +84,14 @@ export default function Section3(){
 
     {/* Text Section */}
     <div  className="p-2 p-md-5 w-100" data-aos="fade-down">
-      <h2 className="pt-4 mobile-fonts-heading" style={{ fontSize: "75px" }}>
+      <h2 className="pt-4 mobile-fonts-heading" style={{ fontSize: "50px" }}>
         Explore <br/>
 Evolve Technologies
 
       </h2>
     
       
-      <h4
+      <h5
         className="pt-4"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
@@ -103,7 +103,7 @@ and optimizing overall combustion efficiency. With state-of-the-art
 technology, real-time analytics, and predictive maintenance insights,
 Evolve helps industries achieve higher fuel efficiency, lower
 operational costs, and reduced environmental impact.
-      </h4>
+      </h5>
       
 
 
@@ -118,7 +118,7 @@ operational costs, and reduced environmental impact.
             </h2>
             <h2 className="fs-1" style={{ color: "#010101", fontWeight: 600 }} >%</h2>
           </div>
-          <h5 className="fw-normal" style={{ color: "#424241"}}>Reduction in NOx and CO emissions with BMW's Dynamic Coal Flow Monitoring System.</h5>
+          <h5 className="fw-normal" style={{ color: "#424241"}}>Reduction in NOx and CO emissions with Evolve Technologies Dynamic Coal Flow Monitoring System.</h5>
         </div>
        </div>
 
@@ -163,7 +163,7 @@ operational costs, and reduced environmental impact.
             </h2>
             <h2 className="fs-1" style={{ color: "#010101", fontWeight: 600 }} >.77L </h2>
           </div>
-          <h5 className="fw-normal" style={{ color: "#424241"}}>Daily savings per plant by reducing unburnt carbon with BMW’s Dynamic CFMS.</h5>
+          <h5 className="fw-normal" style={{ color: "#424241"}}>Daily savings per plant by reducing unburnt carbon with Evolve Technologies Dynamic CFMS.</h5>
         </div>
         </div>
 

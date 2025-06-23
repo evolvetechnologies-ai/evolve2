@@ -31,7 +31,7 @@ export default function Index5(){
       {/* BANNER */}
       <div className="">
         <div className="text-center px-md-5  px-2">
-          <h2 className="pt-4 mobile-fonts-heading text-center" style={{ fontSize: '75px' }}>
+          <h2 className="pt-4 mobile-fonts-heading text-center" style={{ fontSize: '50px' }}>
            Particle Size Segregation
           </h2>
 
@@ -135,20 +135,20 @@ cutting. </h5>
       {/* Section 3 */}
       <div className="p-md-5 py-md-5 pt-md-2 p-3" style={{}}>
         <div className="px-md-5">
-      <h4
+      <h5
         className="pt-4"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
       The coal particle size spectrum has a strong impact on the combustion process. It influences ignition delay, combustion efficiency and LOI (Loss of ignition), the emission levels as well as slagging and fouling. Till date laser based online coal fineness monitoring system can be employed, but this equipment is very costly and multiple maintenance are required in a year.
-      </h4>
+      </h5>
 
 
-      <h4
+      <h5
         className="pt-4"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
       BMW has invented a process based on modification of kinetic energy imparted to Coal particles in coal mills. Based on the mass of coal, particle size is decided. Thus particle segregation is very much feasible by regulating Primary Air Flow. BMW has proved this fact during operation of the combustion optimization.
-      </h4>
+      </h5>
 
 
 

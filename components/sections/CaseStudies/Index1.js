@@ -70,16 +70,16 @@ export default function Index1(){
   <div className="text-center px-md-5 px-2">
     <h2
       className="pt-4 mobile-fonts-heading"
-      style={{ fontSize: '75px' }}
+      style={{ fontSize: '50px' }}
     >
       Case Studies of Proven Results
     </h2>
 
     <div className="px-md-5 py-md-3 text-center">
-      <h4 style={{ color: 'rgb(66, 66, 66)', fontWeight: 400 }}>
+      <h5 style={{ color: 'rgb(66, 66, 66)', fontWeight: 400 }}>
         Tests at 2x600 MW LANCO Anpara and 2x250 MW DSPM Korba resulted in improvements in coal mass flow balancing,
 reducing unburnt carbon and enhancing combustion efficiency.
-      </h4>
+      </h5>
     </div>
   </div>
 
@@ -102,21 +102,21 @@ reducing unburnt carbon and enhancing combustion efficiency.
     <div className="w-100 p-3">
       <h2
         className="pt-md-4 mobile-fonts-heading"
-        style={{ fontSize: '55px' }}
+        style={{ fontSize: '45px' }}
       >
         1. CSPGCL DSPM, Korba
       </h2>
       <ul className="case fs-3">
-        <li className="py-3"><span style={{color:'#3D5D09'}}>Project:</span> Dynamic Coal Flow Monitoring at CSPGCL DSPM, Korba. </li>
-        <li className="py-3"><span style={{color:'#3D5D09'}}>Objective:</span> Balance coal flow in 4 mills to improve efficiency and reduce emissions. </li>
-        <li className="py-3"><span style={{color:'#3D5D09'}}>System:</span> BMW's Dynamic Coal Flow Monitoring and Balancing Valves. </li>
-        <li className="py-3"><span style={{color:'#3D5D09'}}>Results:</span> <ul className="case2"><li>Coal savings of ~1% (~₹6 Crore annually).</li> <li>Reduction in Gross Heat Rate and unburnt carbon in fly ash.</li>  <li>Decrease in NOx emissions by 25.18%.</li> </ul> </li>
+        <li className="py-3"><span style={{color:'#3D5D09',fontWeight:'500'}}>Project:</span> Dynamic Coal Flow Monitoring at CSPGCL DSPM, Korba. </li>
+        <li className="py-3"><span style={{color:'#3D5D09' ,fontWeight:'500'}}>Objective:</span> Balance coal flow in 4 mills to improve efficiency and reduce emissions. </li>
+        <li className="py-3"><span style={{color:'#3D5D09',fontWeight:'500'}}>System:</span> BMW's Dynamic Coal Flow Monitoring and Balancing Valves. </li>
+        <li className="py-3"><span style={{color:'#3D5D09',fontWeight:'500'}}>Results:</span> <ul className="case2"><li>Coal savings of ~1% (~₹6 Crore annually).</li> <li>Reduction in Gross Heat Rate and unburnt carbon in fly ash.</li>  <li>Decrease in NOx emissions by 25.18%.</li> </ul> </li>
         
       </ul>
     </div>
     <div className="text-center p-3 ps-md-5">
       <img
-        src="images/evolve-case/1.png"
+        src="images/evolve-case/e1.png"
         style={{
           borderRadius: '10px',
           boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
@@ -148,21 +148,21 @@ reducing unburnt carbon and enhancing combustion efficiency.
     <div className="w-100 p-3">
       <h2
         className="pt-md-4 mobile-fonts-heading"
-        style={{ fontSize: '55px' }}
+        style={{ fontSize: '45px' }}
       >
         2. LANCO Anpara
       </h2>
       <ul className="case fs-3">
-        <li className="py-3"><span style={{color:'#3D5D09'}}>Project Objective:</span> Balance coal velocities and mass flow in six mills to optimize combustion and improve efficiency.</li>
-        <li className="py-3"><span style={{color:'#3D5D09'}}>System Overview:</span> Utilizes non-intrusive microwave technology for real-time monitoring of coal flow and velocity. </li>
-        <li className="py-3"><span style={{color:'#3D5D09'}}>Results:</span>  Achieved velocity balance within ±5%, and reduced carbon in ash by 19.27%. </li>
-        <li className="py-3"><span style={{color:'#3D5D09'}}>Conclusion:</span>  The system demonstrated significant improvements in operational parameters, combustion efficiency, and emission control, leading to cost savings. </li>
+        <li className="py-3"><span style={{color:'#3D5D09',fontWeight:'500'}}>Project Objective:</span> Balance coal velocities and mass flow in six mills to optimize combustion and improve efficiency.</li>
+        <li className="py-3"><span style={{color:'#3D5D09',fontWeight:'500'}}>System Overview:</span> Utilizes non-intrusive microwave technology for real-time monitoring of coal flow and velocity. </li>
+        <li className="py-3"><span style={{color:'#3D5D09',fontWeight:'500'}}>Results:</span>  Achieved velocity balance within ±5%, and reduced carbon in ash by 19.27%. </li>
+        <li className="py-3"><span style={{color:'#3D5D09',fontWeight:'500'}}>Conclusion:</span>  The system demonstrated significant improvements in operational parameters, combustion efficiency, and emission control, leading to cost savings. </li>
         
       </ul>
     </div>
     <div className="text-center p-3 ps-md-5">
       <img
-        src="images/evolve-case/1.png"
+        src="images/evolve-case/e1.png"
         style={{
           borderRadius: '10px',
           boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
@@ -212,15 +212,15 @@ reducing unburnt carbon and enhancing combustion efficiency.
     
 
     <div className="w-100 ps-md-5 d-flex flex-column justify-content-between">
-      <h2 className="pt-md-4 mobile-fonts-heading text-start  pt-4" style={{ fontSize: '75px' }}>
+      <h3 className="pt-md-4 mobile-fonts-heading text-start  pt-4" style={{ fontSize: '50px' }}>
        Proven Results in Power Plant Operations
-      </h2>
+      </h3>
 
      
         <div >
-          <h2 className="pt-3 fs-3" style={{ color: '#3D5D09' }}>
+          <h3 className="pt-3 fs-3" style={{ color: '#3D5D09' }}>
             Heat Rate Improvement:
-          </h2>
+          </h3>
           <h5 className="fw-normal">
             The system has resulted in reduced unburnt ash, improved boiler efficiency, and a decrease in gross heat rate by up to 1.05%.
           </h5>
