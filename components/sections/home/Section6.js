@@ -37,26 +37,26 @@ export default function Section5(){
 
   return (
     <>
-    <div className="p-2 p-md-5">
-<div className="d-flex flex-column justify-content-center align-items-center ">
+    <div className="p-2 p-md-5 pb-md-0">
+<div className="d-flex flex-column justify-content-center align-items-center container ">
     <h2 className="pt-md-4 mobile-fonts-heading text-center  pt-4" style={{ fontSize: '50px' }}>
        Trusted by Community
       </h2>
 
       <h5
         className="pt-4 text-center "
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign:"start" }}
       >
-       At Evolve, our commitment to innovation, reliability, and performance speaks through the voices of our clients. From  large <br/>scale  government projects to private sector giants, our solutions have earned the trust of those who demand excellence.
+       At Evolve, our commitment to innovation, reliability, and performance speaks through the voices of our clients. From  large scale  government projects to private sector giants, our solutions have earned the trust of those who demand excellence.
       </h5>
   </div>
     </div>
     <div className="p-2  p-md-5 pt-md-0 ">
 
-      <div id="carouselExampleControls1" className="carousel slide px-md-5" data-bs-ride="carousel">
+      <div id="carouselExampleControls1" className="carousel slide px-md-5 pt-md-0" data-bs-ride="carousel">
       <div className="carousel-inner">
         
-        <div className="carousel-item active">
+        <div className="carousel-item container active p-5">
           <div className="row">
            
 
@@ -122,7 +122,7 @@ export default function Section5(){
         </div>
 
 
-        <div className="carousel-item ">
+        <div className="carousel-item container p-5 ">
           <div className="row">
            
 
@@ -193,7 +193,7 @@ export default function Section5(){
 
 
 
-        <div className="carousel-item ">
+        <div className="carousel-item container p-5  ">
           <div className="row">
            
 
@@ -265,7 +265,7 @@ export default function Section5(){
 
 
 
-        <div className="carousel-item ">
+        <div className="carousel-item container p-5  ">
           <div className="row">
            
 
@@ -275,13 +275,13 @@ export default function Section5(){
 
              <div className="col-md-12" >
 
-             <div className="card  m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+             <div className="card  m-4 text-center d-flex justify-content-center align-items-center" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
                <img
                       
                           src="/images/evolve-home/all.png"
                           alt=""
 
-                          className="w-100"
+                          className="w-75 text-center"
                          
                           
                         />
@@ -291,7 +291,7 @@ export default function Section5(){
             {/* Add more cards as needed */}
           </div>
         </div>
-        {/* Add more carousel items as needed */}
+       
       </div>
       
     </div>
