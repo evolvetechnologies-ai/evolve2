@@ -197,16 +197,13 @@ export default function Layout({ children }) {
                 </div>
                 <div className="mb-3">
                   <strong>Email:</strong>
-                  <p>sales@Evolve.com</p>
+                  <p>sales@evolvetechnologies.co.in</p>
                 </div>
                 <div className="mb-3">
                   <strong>Phone:</strong>
                   <p>+91-96-390 170 70</p>
                 </div>
-                <div className="mb-3">
-                  <strong>WhatsApp:</strong>
-                  <p>+91-01 234 567 89</p>
-                </div>
+                
               </div>
             </div>
           </div>
