@@ -13,10 +13,10 @@ export default function Index8() {
     };
 
     try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
+      const response = await fetch("/api/contact", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
       });
@@ -112,12 +112,12 @@ export default function Index8() {
               </div>
             </div>
             <div className="w-100 d-flex justify-content-center align-items-center mt-3 mt-md-0">
-              <form
+             <form
                 onSubmit={handleSubmit}
                 className="p-5 w-100"
                 style={{ backgroundColor: 'rgb(233, 233, 233)', borderRadius: '10px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }}
               >
-                <h2 className="text-center">Get in touch</h2>
+                <h1 className="text-center">Get in touch</h1>
                 <div className="mb-3">
                   <label htmlFor="name" className="form-label">Name</label>
                   <input type="text" name="name" className="form-control" placeholder="Enter your Name" id="name" required />
