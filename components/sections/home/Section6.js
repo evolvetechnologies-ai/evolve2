@@ -53,10 +53,10 @@ export default function Section5(){
     </div>
     <div className="p-2  p-md-5 pt-md-0 ">
 
-      <div id="carouselExampleControls1" className="carousel slide px-md-5 pt-md-0" data-bs-ride="carousel">
-      <div className="carousel-inner">
+      <div id="carouselExampleControls1" className="carousel d-none d-md-block slide px-md-5 pt-md-0" data-bs-ride="carousel">
+      <div className="carousel-inner container ">
         
-        <div className="carousel-item container active p-md-5">
+        <div className="carousel-item  active p-md-5">
           <div className="row">
            
 
@@ -122,7 +122,7 @@ export default function Section5(){
         </div>
 
 
-        <div className="carousel-item container p-md-5 ">
+        <div className="carousel-item   p-md-5 ">
           <div className="row">
            
 
@@ -193,7 +193,7 @@ export default function Section5(){
 
 
 
-        <div className="carousel-item container p-md-5  ">
+        <div className="carousel-item  p-md-5  ">
           <div className="row">
            
 
@@ -265,7 +265,7 @@ export default function Section5(){
 
 
 
-        <div className="carousel-item container  p-md-5  ">
+        <div className="carousel-item   p-md-5   ">
           <div className="row">
            
 
@@ -273,7 +273,7 @@ export default function Section5(){
            
 
 
-             <div className="col-md-12" >
+             <div className="col-md-12 " >
 
              <div className="card  m-4 text-center d-flex justify-content-center align-items-center" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
                <img
@@ -281,10 +281,13 @@ export default function Section5(){
                           src="/images/evolve-home/all.png"
                           alt=""
 
-                          className="w-75 text-center"
+                          className="w-75 text-center d-none d-md-block"
                          
                           
                         />
+
+
+                       
              </div>
              
             </div>
@@ -293,8 +296,378 @@ export default function Section5(){
         </div>
        
       </div>
+
+
+       
       
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div id="carouselExampleControls1" className="carousel  d-md-none slide px-md-5 pt-md-0" data-bs-ride="carousel">
+      <div className="carousel-inner container ">
+        
+        <div className="carousel-item  active p-md-5">
+          <div className="row">
+           
+
+
+           
+
+
+             <div className="col-md-12" >
+              <div className="card p-md-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+                <div className="card-body">
+                  <div className="d-flex justify-content-between pb-3">
+                                      <img
+                                      height={'50px'}
+                          src="/images/evolve-home/test1.png"
+                          alt=""
+                          
+                          
+                        /><img
+                        height={'100px'}
+                          src="/images/evolve-home/mpl2.png"
+                          alt=""
+                         
+                          
+                        />
+                  </div>
+                  
+                  
+
+<p className="">Evolve Technologies successfully installed Variable Orifices and a Coal Flow Monitoring System in Unit 2, Mill D. During tests in September 2021, the system demonstrated accurate, real-time measurement and effective balancing of coal flow across all four PF pipes, achieving results within 5% of the average flow. Its diagnostic capabilities are expected to enhance combustion efficiency and support NOx emission control.
+</p>
+
+
+                  <div className="d-flex justify-content-between ">
+
+                    <div>
+                     <h5 className="card-title">Maithon Power Limited </h5>
+                      
+                    </div>
+
+                    <div>
+                      <span className="pe-3">
+                        5.0
+                      </span>
+                      <img
+                        height={'20px'}
+                          src="/images/evolve-home/star.png"
+                          alt=""
+                          
+                          
+                        />
+                    </div>
+
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            {/* Add more cards as needed */}
+          </div>
+        </div>
+
+
+        <div className="carousel-item   p-md-5 ">
+          <div className="row">
+           
+
+
+           
+
+
+             <div className="col-md-12" >
+              <div className="card p-md-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+                <div className="card-body">
+                  <div className="d-flex justify-content-between pb-3">
+                                      <img
+                                      height={'50px'}
+                          src="/images/evolve-home/test1.png"
+                          alt=""
+                          
+                          
+                        /><img
+                        height={'100px'}
+                          src="/images/evolve-home/cs.png"
+                          alt=""
+                         
+                          
+                        />
+                  </div>
+                  
+                  
+
+<p className="">Variable Orifices and a Coal Flow Monitoring System supplied by M/s BMW Steel Ltd. were installed in all four mills of Unit 1 at DSPM TPS, Korba East. Post-installation and coal pipe balancing in Nov 2022, the plant reported significant improvements, including better Gross Unit Heat Rate (GUHR), reduced unburnt carbon in both bottom ash and fly ash, and lower NOx emissions in flue gases.
+
+</p>
+
+
+                  <div className="d-flex justify-content-between ">
+
+                    <div>
+                     <h5 className="card-title">Chhattisgarh State Power Generation Company Ltd. </h5>
+                      
+                    </div>
+
+                    <div>
+                      <span className="pe-3">
+                        5.0
+                      </span>
+                      <img
+                        height={'20px'}
+                          src="/images/evolve-home/star.png"
+                          alt=""
+                          
+                          
+                        />
+                    </div>
+
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            {/* Add more cards as needed */}
+          </div>
+        </div>
+
+
+
+
+
+
+        <div className="carousel-item  p-md-5  ">
+          <div className="row">
+           
+
+
+           
+
+
+             <div className="col-md-12" >
+              <div className="card p-md-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+                <div className="card-body">
+                  <div className="d-flex justify-content-between pb-3">
+                                      <img
+                                      height={'50px'}
+                          src="/images/evolve-home/test1.png"
+                          alt=""
+                          
+                          
+                        /><img
+                        height={'100px'}
+                          src="/images/evolve-home/hp.png"
+                          alt=""
+                         
+                          
+                        />
+                  </div>
+                  
+                  
+
+<p className="">Evolve Technologies supplied ceramic Variable Orifices for Units 1 & 2 of MB Power, Anuppur in 2015. After over 25,000 hours of operation, the orifices continue to perform reliably with excellent wear and erosion resistance. Adjustments during mill operations have been smooth, and the quality of ceramic tile fixing is noted as good. Overall, the performance of the orifices is rated satisfactory.
+
+</p>
+
+
+                  <div className="d-flex justify-content-between ">
+
+                    <div>
+                     <h5 className="card-title">Hindustan Power Projects Pvt. Ltd. </h5>
+                      
+                    </div>
+
+                    <div>
+                      <span className="pe-3">
+                        5.0
+                      </span>
+                      <img
+                        height={'20px'}
+                          src="/images/evolve-home/star.png"
+                          alt=""
+                          
+                          
+                        />
+                    </div>
+
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            {/* Add more cards as needed */}
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <div className="carousel-item   p-md-5   ">
+          <div className="row">
+           
+
+
+           
+
+
+             <div className="col-md-12 " >
+
+             <div className="card  m-4 text-center d-flex justify-content-center align-items-center" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+               <img
+                      
+                          src="/images/evolve-home/mpl1.png"
+                          alt=""
+
+                          className="w-75 text-center "
+                         
+                          
+                        />
+
+
+                       
+             </div>
+             
+            </div>
+            {/* Add more cards as needed */}
+          </div>
+        </div>
+
+
+
+        <div className="carousel-item   p-md-5   ">
+          <div className="row">
+           
+
+
+           
+
+
+             <div className="col-md-12 " >
+
+             <div className="card  m-4 text-center d-flex justify-content-center align-items-center" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+               <img
+                      
+                          src="/images/evolve-home/dvc.png"
+                          alt=""
+
+                          className="w-75 text-center "
+                         
+                          
+                        />
+
+
+                       
+             </div>
+             
+            </div>
+            {/* Add more cards as needed */}
+          </div>
+        </div>
+
+
+
+        <div className="carousel-item   p-md-5   ">
+          <div className="row">
+           
+
+
+           
+
+
+             <div className="col-md-12 " >
+
+             <div className="card  m-4 text-center d-flex justify-content-center align-items-center" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+               <img
+                      
+                          src="/images/evolve-home/cpgcl1.png"
+                          alt=""
+
+                          className="w-75 text-center "
+                         
+                          
+                        />
+
+
+                       
+             </div>
+             
+            </div>
+            {/* Add more cards as needed */}
+          </div>
+        </div>
+
+
+        <div className="carousel-item   p-md-5   ">
+          <div className="row">
+           
+
+
+           
+
+
+             <div className="col-md-12 " >
+
+             <div className="card  m-4 text-center d-flex justify-content-center align-items-center" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+               <img
+                      
+                          src="/images/evolve-home/lanco.png"
+                          alt=""
+
+                          className="w-75 text-center "
+                         
+                          
+                        />
+
+
+                       
+             </div>
+             
+            </div>
+            {/* Add more cards as needed */}
+          </div>
+        </div>
+       
+      </div>
+
+
+       
+      
+    </div>
+
+
+
+
+
+
+
+
     </div>
         
 <div >

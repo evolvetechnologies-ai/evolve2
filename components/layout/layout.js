@@ -197,11 +197,15 @@ export default function Layout({ children }) {
                 </div>
                 <div className="mb-3">
                   <strong>Email:</strong>
-                  <p>sales@evolvetechnologies.co.in</p>
+                  <p><a className="text-reset text-decoration-none   now" href="mailto:Sales@evolvetechnologies.co.in">
+             Sales@evolvetechnologies.co.in
+          </a> </p>
                 </div>
                 <div className="mb-3">
                   <strong>Phone:</strong>
-                  <p>+91-96-390 170 70</p>
+                  <p><a className="text-reset text-decoration-none   now" href="tel:+919639017070">
+             +91-9639017070
+          </a></p>
                 </div>
                 
               </div>

@@ -144,10 +144,15 @@ export default function Footer() {
                 </p></a>
                 <p className="now">
                   <i className="fas fa-envelope me-3 "></i>
-                  Sales@evolvetechnologies.co.in
+                  
+                  <a className="text-reset text-decoration-none   now" href="mailto:Sales@evolvetechnologies.co.in">
+             Sales@evolvetechnologies.co.in
+          </a> 
                 </p>
                 <p className="now">
-                  <i className="fas fa-phone me-3"></i> +91-9639017070
+                  <i className="fas fa-phone me-3"></i> <a className="text-reset text-decoration-none   now" href="tel:+919639017070">
+             +91-9639017070
+          </a> 
                 </p>
                 
               </div>
