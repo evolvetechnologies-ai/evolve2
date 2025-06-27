@@ -21,7 +21,7 @@ const VideoSection = () => {
       poster="/images/section-4.jpg"
       onClick={playVid}
       id="myVideo"
-      src="/images/evolve-home/bmw-100.mp4"
+      src="/images/evolve-home/bmw-1001.mp4"
       type="video/mp4"
       loop
       crossOrigin="anonymous"
