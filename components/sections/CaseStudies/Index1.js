@@ -109,7 +109,7 @@ reducing unburnt carbon and enhancing combustion efficiency.
       <ul className="case fs-3">
         <li className="py-3"><span style={{color:'#3D5D09',fontWeight:'500'}}>Project:</span> Dynamic Coal Flow Monitoring at CSPGCL DSPM, Korba. </li>
         <li className="py-3"><span style={{color:'#3D5D09' ,fontWeight:'500'}}>Objective:</span> Balance coal flow in 4 mills to improve efficiency and reduce emissions. </li>
-        <li className="py-3"><span style={{color:'#3D5D09',fontWeight:'500'}}>System:</span> BMW's Dynamic Coal Flow Monitoring and Balancing Valves. </li>
+        <li className="py-3"><span style={{color:'#3D5D09',fontWeight:'500'}}>System:</span> Evolve Technologies Dynamic Coal Flow Monitoring and Balancing Valves. </li>
         <li className="py-3"><span style={{color:'#3D5D09',fontWeight:'500'}}>Results:</span> <ul className="case2"><li>Coal savings of ~1% (~₹6 Crore annually).</li> <li>Reduction in Gross Heat Rate and unburnt carbon in fly ash.</li>  <li>Decrease in NOx emissions by 25.18%.</li> </ul> </li>
         
       </ul>

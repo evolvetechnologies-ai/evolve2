@@ -365,14 +365,14 @@ durability, efficiency, and precision.
 
     <div className="row w-100 p-md-5">
 
-      <div className="col-md-3 m-2" style={{backgroundColor:'#F1F9EE',borderRadius:'10px'}}>
+      <div className="col-md-3 m-2" style={{backgroundColor:'',borderRadius:'10px'}}>
         <img
         src="/images/evolve-home/1.png"
         alt=""   
       />
       </div>
 
-       <div className="col-md-3 m-2" style={{backgroundColor:'#F1F9EE',borderRadius:'10px'}}>
+       <div className="col-md-3 m-2" style={{backgroundColor:'',borderRadius:'10px'}}>
         <img
         src="/images/evolve-home/2.png"
         alt=""   
@@ -380,21 +380,21 @@ durability, efficiency, and precision.
       </div>
 
 
-       <div className="col-md-3 m-2" style={{backgroundColor:'#F1F9EE',borderRadius:'10px'}}>
+       <div className="col-md-3 m-2" style={{backgroundColor:'',borderRadius:'10px'}}>
         <img
         src="/images/evolve-home/3.png"
         alt=""   
       />
       </div>
 
-      <div className="col-md-3 m-2" style={{backgroundColor:'#F1F9EE',borderRadius:'10px'}}>
+      <div className="col-md-3 m-2" style={{backgroundColor:'',borderRadius:'10px'}}>
         <img
         src="/images/evolve-home/4.png"
         alt=""   
       />
       </div>
 
-      <div className="col-md-3 m-2" style={{backgroundColor:'#F1F9EE',borderRadius:'10px'}}>
+      <div className="col-md-3 m-2" style={{backgroundColor:'',borderRadius:'10px'}}>
         <img
         src="/images/evolve-home/5.png"
         alt=""   
@@ -403,7 +403,7 @@ durability, efficiency, and precision.
 
 
 
-      <div className="col-md-3 m-2" style={{backgroundColor:'#F1F9EE',borderRadius:'10px'}}>
+      <div className="col-md-3 m-2" style={{backgroundColor:'',borderRadius:'10px'}}>
         <img
         src="/images/evolve-home/6.png"
         alt=""   

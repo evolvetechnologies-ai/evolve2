@@ -110,6 +110,13 @@ export default function Footer() {
                     
                   </Link>
                 </p>
+
+                <p>
+                  <Link href="/ContactUs" className="text-reset text-decoration-none now">
+                    Contact Us
+                    
+                  </Link>
+                </p>
                 {/* <p>
                   <Link href="/ChemicallyBondedCompoundSeries" className="text-reset text-decoration-none now">
                     CBC Series

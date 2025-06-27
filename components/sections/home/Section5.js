@@ -345,7 +345,7 @@ which can lead to inefficient combustion.
   <div className="d-md-flex p-3 pt-md-0 px-md-5 justify-content-center align-items-center">
     <div className="w-100">
       <h2 className="pt-md-4 mobile-fonts-heading" style={{ fontSize: '50px' }}>
-        Key Advantages of the Evolve Technologies Coal Flow System
+        Key Advantages of the Evolve Technologies Coal Flow Monitoring System
       </h2>
     </div>
 

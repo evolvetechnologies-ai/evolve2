@@ -139,7 +139,7 @@ cutting. </h5>
         className="pt-4"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
-      BMW has developed a unique equipment to create turbulence in coal flow in a section of pipe and effectively breaks the high coal concentration areas.
+      Evolve Technology has developed a unique equipment to create turbulence in coal flow in a section of pipe and effectively breaks the high coal concentration areas.
       </h5>
 
 

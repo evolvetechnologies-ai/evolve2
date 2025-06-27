@@ -151,7 +151,7 @@ export default function Section5(){
                   
                   
 
-<p className="">Variable Orifices and a Coal Flow Monitoring System supplied by M/s BMW Steel Ltd. were installed in all four mills of Unit 1 at DSPM TPS, Korba East. Post-installation and coal pipe balancing in Nov 2022, the plant reported significant improvements, including better Gross Unit Heat Rate (GUHR), reduced unburnt carbon in both bottom ash and fly ash, and lower NOx emissions in flue gases.
+<p className="">Variable Orifices and a Coal Flow Monitoring System supplied by M/s evolve technology. were installed in all four mills of Unit 1 at DSPM TPS, Korba East. Post-installation and coal pipe balancing in Nov 2022, the plant reported significant improvements, including better Gross Unit Heat Rate (GUHR), reduced unburnt carbon in both bottom ash and fly ash, and lower NOx emissions in flue gases.
 
 </p>
 
@@ -295,6 +295,24 @@ export default function Section5(){
           </div>
         </div>
        
+       <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls1"
+          data-bs-slide="prev"
+        >
+          <span className="carousel-control-prev-icon bg-dark ms-2" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          className="carousel-control-next "
+          type="button"
+          data-bs-target="#carouselExampleControls1"
+          data-bs-slide="next"
+        >
+          <span className="carousel-control-next-icon bg-dark me-2" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
       </div>
 
 
@@ -415,7 +433,7 @@ export default function Section5(){
                   
                   
 
-<p className="">Variable Orifices and a Coal Flow Monitoring System supplied by M/s BMW Steel Ltd. were installed in all four mills of Unit 1 at DSPM TPS, Korba East. Post-installation and coal pipe balancing in Nov 2022, the plant reported significant improvements, including better Gross Unit Heat Rate (GUHR), reduced unburnt carbon in both bottom ash and fly ash, and lower NOx emissions in flue gases.
+<p className="">Variable Orifices and a Coal Flow Monitoring System supplied by M/s evolve technology. were installed in all four mills of Unit 1 at DSPM TPS, Korba East. Post-installation and coal pipe balancing in Nov 2022, the plant reported significant improvements, including better Gross Unit Heat Rate (GUHR), reduced unburnt carbon in both bottom ash and fly ash, and lower NOx emissions in flue gases.
 
 </p>
 

@@ -147,7 +147,7 @@ cutting. </h5>
         className="pt-4"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
       >
-      BMW has invented a process based on modification of kinetic energy imparted to Coal particles in coal mills. Based on the mass of coal, particle size is decided. Thus particle segregation is very much feasible by regulating Primary Air Flow. BMW has proved this fact during operation of the combustion optimization.
+      Evolve Technology has invented a process based on modification of kinetic energy imparted to Coal particles in coal mills. Based on the mass of coal, particle size is decided. Thus particle segregation is very much feasible by regulating Primary Air Flow.Evolve technology has proved this fact during operation of the combustion optimization.
       </h5>
 
 
