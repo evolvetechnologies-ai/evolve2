@@ -86,7 +86,7 @@ const Section4 = () => {
         </div>
         <div className="text-center p-3 ps-md-5">
           <img
-            src="/images/CFMS/section-1.png"
+            src="/images/CFMS/section-11.png"
             width={600}
             height={400}
             alt="Dynamic CFMS"
@@ -100,7 +100,7 @@ const Section4 = () => {
             <h3>Dynamic CFMS</h3>
 
 
-            <Link style={{ color: 'red', textDecoration: 'none' }} href="/images/evolve-pdf/cfms-pdf.pdf" download>
+            <Link style={{ color: 'red', textDecoration: 'none' }} href="/images/evolve-pdf/cfms-pdf2.pdf" download>
        Download PDF
       </Link>
            
