@@ -126,6 +126,7 @@ export default function Header() {
                     Coal Rope Detection
                   </Link>
                 </li>
+                
 
 
                 
@@ -149,6 +150,17 @@ export default function Header() {
                 Case Studies
               </Link>
             </li>
+
+
+            <li className="nav-item">
+              <Link
+                className={`nav-link white now ${isActive('/About') ? 'active' : ''}`}
+                href="/Blogs"
+              >
+                Blogs
+              </Link>
+            </li>
+
 
 
             <li className="nav-item d-md-none">
