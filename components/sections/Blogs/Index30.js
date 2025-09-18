@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 export default function Index30(){
     return (
         <>
@@ -22,17 +23,41 @@ export default function Index30(){
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img
+           <Link
+               
+                href="/Optimizing-Combustion-in-Thermal-Power-Plants"
+                
+              >
+                <img
               src="images/Blogs/Blog1.png"
               style={{ borderRadius: "15px" }}
               className="d-block w-100"
               alt="..."
             />
+
+                
+              </Link> 
+            
+            
+
+
             <div className="p-3 mt-3">
-              <h5 style={{ color: "rgb(126, 125, 125)" }}>September 15, 2025</h5>
-              <h3 style={{ color: "rgb(32, 32, 32)" }}>
+              <h5 style={{ color: "rgb(126, 125, 125)" }}>September 11, 2025</h5>
+
+              <Link
+              style={{textDecoration:"none !important" }}
+               
+                href="/Optimizing-Combustion-in-Thermal-Power-Plants"
+                
+              >
+                 <h3 style={{ color: "rgb(32, 32, 32)",textDecoration:"none !important" }}>
                 Optimizing Combustion in Thermal Power Plants: How Coal Flow Balancing Systems Drives Efficiency, Flexibility, and Low Emissions
               </h3>
+                
+              </Link> 
+
+
+             
             </div>
           </div>
 
