@@ -8,7 +8,7 @@ export default function Index34(){
   <div className="text-center px-md-5 px-2 py-5 " style={{ backgroundColor: '#ffffff' }}>
 
     <h3 className="pt-5" style={{ color: 'rgb(32, 32, 32)', fontWeight: 800, textAlign: 'start' }}>
-      Utkarsh  Evolve’s Kinetic Energy Modulation — Redefining Particle Size Segregation in Coal-Fired Power Plants
+        Evolve’s Kinetic Energy Modulation — Redefining Particle Size Segregation in Coal-Fired Power Plants
     </h3>
     <img className=" w-100 pt-3" src="images/Blogs/Blog4.jpg" alt="" />
     {/* <h3 className="pt-5" style={{ color: 'rgb(32, 32, 32)', fontWeight: 700, textAlign: 'start' }}>Introduction</h3> */}
