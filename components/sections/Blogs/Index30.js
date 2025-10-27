@@ -243,7 +243,7 @@ export default function Index30(){
           <div className="carousel-item active">
            <Link
                
-                href="/Coal-Flow-Monitoring-System-CFMS-Driving-Efficiency-in-Thermal-Power-Plants"
+                href="/Evolve-Kinetic-Energy-Modulation"
                 
               >
                 <img
@@ -265,7 +265,7 @@ export default function Index30(){
               <Link
               style={{textDecoration:"none !important" }}
                
-                href="/Coal-Flow-Monitoring-System-CFMS-Driving-Efficiency-in-Thermal-Power-Plants"
+                href="/Evolve-Kinetic-Energy-Modulation"
                 
               >
                  <h3 style={{ color: "rgb(32, 32, 32)",textDecoration:"none !important" }}>
