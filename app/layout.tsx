@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   description: "Pioneer in dynamic coal flow measurement systems with real-time monitoring, improved combustion efficiency, and reduced emissions for power plants.",
 };
 
+<meta
+          name="google-site-verification"
+          content="8A-b6mz9xl8AdaJKrj1zHC0hu4JjTs06PnWR-2C_BvI"
+        />
+
 export default function RootLayout({
   children,
 }: Readonly<{

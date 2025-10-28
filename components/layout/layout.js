@@ -7,6 +7,10 @@ import Footer from "./footer";
 export default function Layout({ children }) {
   return (
     <>
+    <meta
+          name="google-site-verification"
+          content="8A-b6mz9xl8AdaJKrj1zHC0hu4JjTs06PnWR-2C_BvI"
+        />
       {/* Floating Buttons */}
       <div className="button-container">
         <button
