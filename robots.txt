@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /backend/
+Disallow: /cgi-bin/
+Disallow: /temp/
+Disallow: /private/
+Sitemap: https://www.evolvetechnologies.in/sitemap.xml
