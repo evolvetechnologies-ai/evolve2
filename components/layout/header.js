@@ -14,7 +14,24 @@ export default function Header() {
 
   return (
     <>
+    
       {/* ✅ Schema Markup for SEO */}
+
+      
+    <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-V549MQ2WVW"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-V549MQ2WVW');
+          `}
+        </Script>
+
+
       <Script
         id="evolve-schema"
         type="application/ld+json"
