@@ -7,6 +7,9 @@ import Footer from "./footer";
 export default function Layout({ children }) {
   return (
     <>
+    <link rel="canonical" href="https://www.evolvetechnologies.in/" />
+
+    
     <meta
           name="google-site-verification"
           content="8A-b6mz9xl8AdaJKrj1zHC0hu4JjTs06PnWR-2C_BvI"

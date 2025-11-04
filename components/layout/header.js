@@ -16,6 +16,7 @@ export default function Header() {
     <>
     
       {/* ✅ Schema Markup for SEO */}
+      
 
       
     <Script
