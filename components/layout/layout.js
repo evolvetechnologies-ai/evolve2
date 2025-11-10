@@ -7,6 +7,8 @@ import Footer from "./footer";
 export default function Layout({ children }) {
   return (
     <>
+
+    
     <link rel="canonical" href="https://www.evolvetechnologies.in/" />
 
     
