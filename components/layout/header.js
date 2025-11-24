@@ -306,6 +306,8 @@ export default function Header() {
             </ul>
           </div>
 
+          
+
           <div className="d-none d-md-block">
             <Link
               className="btn"
@@ -314,7 +316,22 @@ export default function Header() {
             >
               Get a Quote <i className="fa-solid fa-arrow-right ms-2"></i>
             </Link>
+
+            
+
           </div>
+
+
+           <div>
+            <a href="https://www.linkedin.com/company/evolve-pvt-ltd/posts/?feedView=all" className="me-4 text-reset-2 text-decoration-none">
+              <i className="fab fa-linkedin"></i>
+            </a>
+          
+          </div>
+
+          
+
+
         </div>
       </nav>
     </>

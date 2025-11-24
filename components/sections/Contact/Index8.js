@@ -71,20 +71,20 @@ export default function Index8() {
         {/* Section-1 */}
         <div className="p-lg-5">
           <div className="p-lg-5 p-3 d-lg-flex">
-            <div className="m-lg-4 mt-3 text-center w-100 p-5" style={{ backgroundColor: '#F1F9EE', borderRadius: '10px' }}>
+            <div className="m-lg-4 mt-3 text-center w-100 p-3 p-md-5" style={{ backgroundColor: '#F1F9EE', borderRadius: '10px' }}>
               <img src="images/evolve-contact/1.png" alt="" />
-              <h4 className="pt-4 fs-3">Sales@evolvetechnologies.
- co.in</h4>
+              <h4 className="pt-4 fs-5">Sales@evolvetechnologies.
+co.in</h4>
               <h5 className="pt-3 fw-normal">We aim to respond within 24 hours.</h5>
             </div>
-            <div className="m-lg-4 mt-3 text-center w-100 p-5" style={{ backgroundColor: '#F1F9EE', borderRadius: '10px' }}>
+            <div className="m-lg-4 mt-3 text-center w-100 p-3 p-md-5" style={{ backgroundColor: '#F1F9EE', borderRadius: '10px' }}>
               <img src="images/evolve-contact/2.png" alt="" />
-              <h4 className="pt-4"> Evolve Technologies</h4>
+              <h4 className="pt-4 fs-5"> Evolve Technologies</h4>
               <h5 className="pt-3 fw-normal">02 Balbir Road, Dalanwala, Dehradun, Uttarakhand, 248001</h5>
             </div>
-            <div className="m-lg-4 mt-3 text-center w-100 p-5" style={{ backgroundColor: '#F1F9EE', borderRadius: '10px' }}>
+            <div className="m-lg-4 mt-3 text-center w-100 p-3 p-md-5" style={{ backgroundColor: '#F1F9EE', borderRadius: '10px' }}>
               <img src="images/evolve-contact/3.png" alt="" />
-              <h4 className="pt-4">+91-96390 17070</h4>
+              <h4 className="pt-4 fs-5">+91-96390 17070</h4>
               <h5 className="pt-3 fw-normal">Our calls hours are Mon-sat 9am-6:30pm.</h5>
             </div>
           </div>

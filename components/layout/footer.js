@@ -12,18 +12,10 @@ export default function Footer() {
           </div>
 
           <div>
-            <a href="" className="me-4 text-reset text-decoration-none">
-              <i className="fab fa-facebook-f"></i>
+            <a href="https://www.linkedin.com/company/evolve-pvt-ltd/posts/?feedView=all" className="me-4 text-reset text-decoration-none">
+              <i className="fab fa-linkedin"></i>
             </a>
-            <a href="" className="me-4 text-reset text-decoration-none">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="" className="me-4 text-reset text-decoration-none">
-              <i className="fab fa-google"></i>
-            </a>
-            <a href="" className="me-4 text-reset text-decoration-none">
-              <i className="fab fa-instagram"></i>
-            </a>
+          
           </div>
         </section>
 
