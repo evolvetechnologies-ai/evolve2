@@ -137,7 +137,7 @@ cutting. </h5>
         <div className="px-md-5">
       <h5
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
       Evolve Technology has developed a unique equipment to create turbulence in coal flow in a section of pipe and effectively breaks the high coal concentration areas.
       </h5>
@@ -145,7 +145,7 @@ cutting. </h5>
 
       <h5
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
       <b>Technology:</b> Utilizes microwave-based sensors to provide continuous measurement of coal flow in each pipe.
       </h5>
@@ -155,7 +155,7 @@ cutting. </h5>
 
       <h5
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
      <b>Accuracy:</b> Ensures measurement within a permissible deviation limit of ±5%.
 
@@ -167,7 +167,7 @@ cutting. </h5>
 
       <h5
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
      <b>Implementation:</b> Sensors are strategically placed 120 degrees apart within each coal pipe for optimal data accuracy.
       </h5>

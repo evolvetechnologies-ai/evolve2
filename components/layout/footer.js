@@ -31,7 +31,7 @@ export default function Footer() {
           <div className="text-center text-md-start pt-5">
             <div className="row mx-0 mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="https://evolvetechnologies.in/">
                   <img src="images/evolve-header/logo.png" height="100px" alt="" />
                 </a>
                 <p>

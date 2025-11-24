@@ -137,7 +137,7 @@ cutting. </h5>
         <div className="px-md-5">
       <h5
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
       Coal rope detection involves identifying uneven coal distribution within the pipe, which can lead to inefficient combustion. Mass flow sensor detect variations in coal flow and detects high density coal flow areas-Coal rope.
 
@@ -146,7 +146,7 @@ cutting. </h5>
 
       <h5
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
       <b>Technology:</b> Microwave sensor also identify coal roping areas within each pipe.
       </h5>
@@ -156,7 +156,7 @@ cutting. </h5>
 
       <h5
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
      <b>Importance:</b> Detects uneven coal distribution and potential blockages to ensure proper flow and efficient combustion minimizing operational disruptions.
 

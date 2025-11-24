@@ -141,7 +141,7 @@ export default function Header() {
             >
               <img src="/images/menu.png" alt="Menu" />
             </button>
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="https://evolvetechnologies.in/">
               <img
                 src="/images/evolve-header/logo.png"
                 height="70px"

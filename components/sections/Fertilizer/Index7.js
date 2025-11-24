@@ -137,7 +137,7 @@ cutting. </h5>
         <div className="px-md-5">
       <h5
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
       Electrostatic sensors measure the temperature of coal particles as they flow through the pipe, ensuring the coal burns at optimal temperatures. This real-time data helps prevent issues like ash slagging and excessive NOx emissions while also ensuring complete combustion and minimizing unburned carbon in ash. Additionally, we keep the combustion temperature lower than 1100 C to further enhance efficiency and reduce potential damage to equipment.
       </h5>
@@ -145,7 +145,7 @@ cutting. </h5>
 
       <h5
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
       <b> Functionality:</b> Continuously measures the temperature of coal particles as they flow through the pipes.
 
@@ -158,7 +158,7 @@ cutting. </h5>
 
       <h5
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
      <b>Monitoring:</b> Provides real-time temperature of coal particles as they flow through the pipes.
 

@@ -136,7 +136,7 @@ cutting. </h5>
         <div className="px-md-5">
       <h5
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
       Imbalance in coal flow due to various length of pipe and various number of bends that creates unequal resistance in pipeline.
       </h5>
@@ -144,7 +144,7 @@ cutting. </h5>
 
       <h5
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
       Imbalance in coal flow causes an associated
 deterioration in combustion efficiency leading to
@@ -157,7 +157,7 @@ increased coal consumption.
 
       <h5
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
       The only parameters that effects coal distribution
 but cannot be controlled by Variable Orifice
@@ -172,7 +172,7 @@ particle size and coal moisture).
 
       <h5
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
       These orifice valves can be manipulated for
 coal flow adjustment while mill is in operation.
