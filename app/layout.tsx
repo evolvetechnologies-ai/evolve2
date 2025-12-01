@@ -17,7 +17,19 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Evolve Technologies – Advanced Coal Flow Measurement System",
   description: "Pioneer in dynamic coal flow measurement systems with real-time monitoring, improved combustion efficiency, and reduced emissions for power plants.",
-};
+ alternates: {
+  canonical: "https://www.evolvetechnologies.in",
+  },
+}
+;
+
+
+
+
+
+
+
+
 
 <meta
           name="google-site-verification"

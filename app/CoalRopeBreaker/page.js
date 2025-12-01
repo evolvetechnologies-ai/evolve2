@@ -5,6 +5,9 @@ import Script from "next/script";
 export const metadata = {
   title: "Coal Rope Breaker | Safety Device for Coal Flow – Evolve Technologies",
   description: "Protect your operations with Evolve’s Coal Rope Breaker—built for rapid mechanical response to rope failure. Enhance safety, avoid downtime, and safeguard equipment.",
+alternates: {
+    canonical: "https://www.evolvetechnologies.in/CoalRopeBreaker",
+  },
 };
 
 export default function CoalRopeBreaker(){

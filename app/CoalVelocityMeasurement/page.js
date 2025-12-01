@@ -5,7 +5,9 @@ import Script from "next/script";
 export const metadata = {
   title: "Coal Velocity Measurement | Real-Time Electrostatic Sensor – Evolve Technologies",
   description: "Monitor coal particle velocity in real time with Evolve’s electrostatic sensors. Maintain combustion efficiency, flame stability, and reduce NOₓ emissions.",
-};
+alternates: {
+    canonical: "https://www.evolvetechnologies.in/CoalVelocityMeasurement",
+  },};
 export default function Putty(){
     return(
         <>

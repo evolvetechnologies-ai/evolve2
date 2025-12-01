@@ -1,7 +1,15 @@
 import React from "react";
+import Head from "next/head";
 export default function Index3(){
     return (
         <>
+        <Head>
+        
+        <link
+          rel="canonical"
+          href="https://www.evolvetechnologies.in/About"
+        />
+      </Head>
  <div>
       {/* BANNER */}
       <div className=" about-bgi d-flex justify-content-center align-items-center">

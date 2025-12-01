@@ -9,7 +9,7 @@ export default function Layout({ children }) {
     <>
 
     
-    <link rel="canonical" href="https://www.evolvetechnologies.in/" />
+   
 
     
     <meta

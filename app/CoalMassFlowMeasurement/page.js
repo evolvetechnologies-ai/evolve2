@@ -5,6 +5,9 @@ import Script from "next/script";
 export const metadata = {
   title: "Coal Mass Flow Measurement | Real-Time Microwave Sensors – Evolve Technologies",
   description: "Monitor coal mass flow in real time with Evolve’s microwave sensors. ±5% accuracy ensures balanced distribution, better combustion efficiency, and lower emissions.",
+alternates: {
+    canonical: "https://www.evolvetechnologies.in/CoalMassFlowMeasurement",
+  },
 };
 
 export default function Development(){
